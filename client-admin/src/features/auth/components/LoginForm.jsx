@@ -1,8 +1,22 @@
-import React from 'react'
+import { useForm } from "react-hook-form"
+import { useAuthStore } from "../store/authStore";
 
 export const LoginForm = ({ onForgot }) => {
+
+    const { register, handleSubmit, formState: { errors } } = useForm();
+
+    const login = useAuthStore(state => state.login);
+    const loading = useAuthStore(state => state.loading)
+    const error = useAuthStore(state => state.error)
+
+    const onSubmit = async (data) => {
+        //Mandar al Backend para validar credenciales
+        const res = await login(data)
+        console.log(data);
+    }
+
     return (
-        <form className="space-y-5">
+        <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
             <div>
                 <label 
                     htmlFor="emailOrUsername"
@@ -16,7 +30,17 @@ export const LoginForm = ({ onForgot }) => {
                     type="text"
                     placeholder="correo@ejemplo.com o usuario"
                     className="w-full px-3 py-2 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
+                    {...register("emailOrUsername", {
+                        required: "Este campo es requerido"
+                    })}
                 />
+
+                {errors.emailOrUsername && (
+                    <p className="text-red-600 text-xs mt-1">
+                        {errors.emailOrUsername.message}
+                    </p>
+                )}
+
             </div>
 
             <div>
@@ -28,11 +52,21 @@ export const LoginForm = ({ onForgot }) => {
                 </label>
 
                 <input 
-                    id="contraseña"
+                    id="password"
                     type="password"
                     placeholder="contraseña"
                     className="w-full px-3 py-2 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
+                    {...register("password", {
+                        required: "La contraseña es obligatoria"
+                    })}
                 />
+
+                {errors.password && (
+                    <p className="text-red-600 text-xs mt-1">
+                        {errors.password.message}
+                    </p>
+                )}
+
             </div>
 
             <button
