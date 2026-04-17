@@ -34,7 +34,17 @@ export const useAuthStore = create(
                     set({ error: message, loading: false})
                     return { success: false, error: message}
                 }
+            },
+
+            logout: () => {
+                set({
+                    user: null,
+                    token: null,
+                    expiresAt: null,
+                    isAuthenticated: false
+                })
             }
-        })
+        }),
+        { name: "auth-storage"}
     )
 )
