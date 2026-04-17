@@ -1,5 +1,5 @@
-import { Routes, Route } from 'react-router-dom'
-import { AuthPage } from '../../features/auth/pages/AuthPage.jsx'
+import { Routes, Route } from "react-router-dom";
+import { AuthPage } from "../../features/auth/pages/AuthPage.jsx";
 
 export const AppRoutes = () => {
     return (

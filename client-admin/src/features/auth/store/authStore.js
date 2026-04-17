@@ -7,30 +7,32 @@ export const useAuthStore = create(
         (set, get) => ({
             user: null,
             token: null,
-            expiredAt: null,
+            expiresAt:  null,
             loading: false,
             error: null,
             isAuthenticated: false,
 
             login: async ({emailOrUsername, password}) => {
                 try {
-                    set({ loading: true, error: null })
+                    set({ loading: true, error: null});
                     const { data } = await loginRequest({emailOrUsername, password})
+                    console.log(data);
 
                     set({
                         user: data.userDetails,
                         token: data.token,
-                        expiredAt: data.expiredAt,
+                        expiresAt: data.expiresAt,
                         loading: false,
-                        error: message
                     })
 
-                } catch (error) {
-                    console.log("Login error: ", error);
+                    return { success: true }
+
+                } catch (err) {
+                    console.error("Login error:", err);
                     const message =
-                        error.response?.data.message || "Error de autenticacion";
-                    set({ error: message, loading: false })
-                    return { success: false, error: message }
+                        err.response?.data?.message || "Error de autenticación";
+                    set({ error: message, loading: false})
+                    return { success: false, error: message}
                 }
             }
         })
