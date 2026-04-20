@@ -67,7 +67,7 @@ public class AuthService(
         }
         else
         {
-            profilePicturePath = _cloudinaryService.GetDefaultAvatarUrl();
+            profilePicturePath = string.Empty;
         }
 
         // Crear nuevo usuario y entidades relacionadas
