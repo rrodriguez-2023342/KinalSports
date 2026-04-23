@@ -9,9 +9,10 @@ import { UserDetailModal } from "./UserDetailModal";
 const PAGE_SIZE = 8;
 
 export const Users = () => {
-    const { users, loading, error, fetchUsers } = useUserManagementStore();
+    const { users, loading, error, fetchUsers, updateUserRole } = useUserManagementStore();
 
     const registerUser = useAuthStore((state) => state.register);
+    const currentUser = useAuthStore((state) => state.user);
 
     const [search, setSearch] = useState("");
     const [roleFilter, setFilter] = useState("ALL");
@@ -23,6 +24,23 @@ export const Users = () => {
     useEffect(() => {
         fetchUsers();
     }, [fetchUsers]);
+
+    useEffect(() => {
+        if(error){
+            showError(error);
+        }
+    }, [error])
+
+    const handleSaveRole = async (user, newRole) => {
+        const res = await updateUserRole(user.id, newRole);
+        if(res.success) {
+            showSuccess("Rol actualizado correctamente");
+            setOpenCreateModal(false)
+            setSelectUser(null)
+        } else {
+            showError(res.error || "No se pudo actualizar el rol");
+        }
+    }
 
     const handleOpenDetail = (user) => {
         setSelectUser(user)
@@ -169,6 +187,8 @@ export const Users = () => {
             }}
             user={selectUser}
             loading={loading}
+            onSaveRole={handleSaveRole}
+            currentUserId={currentUser?.id}
         />
         </div>
     );
