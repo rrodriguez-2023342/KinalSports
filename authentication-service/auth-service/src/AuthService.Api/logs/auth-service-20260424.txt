@@ -1,0 +1,362 @@
+[2026-04-24 08:06:03 INF] Checking database connection... {"SourceContext":"Program"}
+[2026-04-24 08:06:04 INF] Database ready. Running seed data... {"SourceContext":"Program"}
+[2026-04-24 08:06:04 INF] Database initialization completed successfully {"SourceContext":"Program"}
+[2026-04-24 08:06:05 INF] AuthService API is running at http://localhost:5156. Health endpoint: http://localhost:5156/health {"SourceContext":"Program"}
+[2026-04-24 08:08:19 INF] HTTP OPTIONS /api/v1/auth/login responded 204 in 4.3578 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3M:00000001","ConnectionId":"0HNL21BNSMG3M"}
+[2026-04-24 08:08:20 INF] User login succeeded {"EventId":{"Id":1002,"Name":"LogUserLoggedIn"},"SourceContext":"AuthService.Application.Services.AuthService","ActionId":"5a7c7cb2-70d0-4b49-b62a-9bbab01ae0ae","ActionName":"AuthService.Api.Controllers.AuthController.Login (AuthService.Api)","RequestId":"0HNL21BNSMG3M:00000002","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNL21BNSMG3M"}
+[2026-04-24 08:08:20 INF] HTTP POST /api/v1/auth/login responded 200 in 1269.7502 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3M:00000002","ConnectionId":"0HNL21BNSMG3M"}
+[2026-04-24 08:08:43 INF] HTTP OPTIONS /api/v1/auth/users responded 204 in 0.7644 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3M:00000003","ConnectionId":"0HNL21BNSMG3M"}
+[2026-04-24 08:08:43 INF] HTTP GET /api/v1/auth/users responded 200 in 137.7058 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3M:00000004","ConnectionId":"0HNL21BNSMG3M"}
+[2026-04-24 08:27:34 INF] HTTP OPTIONS /api/v1/auth/users responded 204 in 0.2038 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3N:00000001","ConnectionId":"0HNL21BNSMG3N"}
+[2026-04-24 08:27:34 INF] HTTP GET /api/v1/auth/users responded 401 in 7.2674 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3N:00000002","ConnectionId":"0HNL21BNSMG3N"}
+[2026-04-24 08:27:36 INF] HTTP GET /api/v1/auth/users responded 401 in 1.8246 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3N:00000003","ConnectionId":"0HNL21BNSMG3N"}
+[2026-04-24 08:27:38 INF] HTTP GET /api/v1/auth/users responded 401 in 0.6359 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3N:00000004","ConnectionId":"0HNL21BNSMG3N"}
+[2026-04-24 08:27:43 INF] HTTP GET /api/v1/auth/users responded 401 in 0.6018 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3N:00000005","ConnectionId":"0HNL21BNSMG3N"}
+[2026-04-24 08:27:44 INF] HTTP GET /api/v1/auth/users responded 401 in 0.5485 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3N:00000006","ConnectionId":"0HNL21BNSMG3N"}
+[2026-04-24 08:27:49 INF] HTTP GET /api/v1/auth/users responded 429 in 2.9029 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3N:00000007","ConnectionId":"0HNL21BNSMG3N"}
+[2026-04-24 08:27:50 INF] HTTP GET /api/v1/auth/users responded 429 in 0.6655 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3N:00000008","ConnectionId":"0HNL21BNSMG3N"}
+[2026-04-24 08:27:54 INF] HTTP GET /api/v1/auth/users responded 429 in 0.2209 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3N:00000009","ConnectionId":"0HNL21BNSMG3N"}
+[2026-04-24 08:27:58 INF] HTTP GET /api/v1/auth/users responded 429 in 0.1899 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3N:0000000A","ConnectionId":"0HNL21BNSMG3N"}
+[2026-04-24 08:28:02 INF] HTTP GET /api/v1/auth/users responded 429 in 0.2361 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3N:0000000B","ConnectionId":"0HNL21BNSMG3N"}
+[2026-04-24 08:28:04 INF] HTTP GET /api/v1/auth/users responded 429 in 0.2218 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3N:0000000C","ConnectionId":"0HNL21BNSMG3N"}
+[2026-04-24 08:28:07 INF] HTTP GET /api/v1/auth/users responded 429 in 0.3293 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3N:0000000D","ConnectionId":"0HNL21BNSMG3N"}
+[2026-04-24 08:28:09 INF] HTTP GET /api/v1/auth/users responded 429 in 0.2700 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3N:0000000E","ConnectionId":"0HNL21BNSMG3N"}
+[2026-04-24 08:28:13 INF] HTTP GET /api/v1/auth/users responded 429 in 0.1384 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3N:0000000F","ConnectionId":"0HNL21BNSMG3N"}
+[2026-04-24 08:28:15 INF] HTTP GET /api/v1/auth/users responded 429 in 0.2269 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3N:00000010","ConnectionId":"0HNL21BNSMG3N"}
+[2026-04-24 08:28:16 INF] HTTP GET /api/v1/auth/users responded 429 in 0.1431 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3N:00000011","ConnectionId":"0HNL21BNSMG3N"}
+[2026-04-24 08:28:34 INF] HTTP GET /api/v1/auth/users responded 429 in 0.3897 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3N:00000012","ConnectionId":"0HNL21BNSMG3N"}
+[2026-04-24 08:28:36 INF] HTTP GET /api/v1/auth/users responded 401 in 0.5712 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3N:00000013","ConnectionId":"0HNL21BNSMG3N"}
+[2026-04-24 08:28:37 INF] HTTP GET /api/v1/auth/users responded 401 in 0.5498 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3N:00000014","ConnectionId":"0HNL21BNSMG3N"}
+[2026-04-24 08:29:10 INF] HTTP GET /api/v1/auth/users responded 401 in 0.4104 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3N:00000015","ConnectionId":"0HNL21BNSMG3N"}
+[2026-04-24 08:29:38 INF] HTTP GET /api/v1/auth/users responded 401 in 0.5954 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3N:00000016","ConnectionId":"0HNL21BNSMG3N"}
+[2026-04-24 08:29:43 INF] HTTP GET /api/v1/auth/users responded 401 in 0.6569 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3N:00000017","ConnectionId":"0HNL21BNSMG3N"}
+[2026-04-24 08:30:01 INF] HTTP GET /api/v1/auth/users responded 401 in 0.4033 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3N:00000018","ConnectionId":"0HNL21BNSMG3N"}
+[2026-04-24 08:30:04 INF] HTTP GET /api/v1/auth/users responded 401 in 0.7012 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3N:00000019","ConnectionId":"0HNL21BNSMG3N"}
+[2026-04-24 08:30:09 INF] HTTP GET /api/v1/auth/users responded 401 in 0.8730 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3N:0000001A","ConnectionId":"0HNL21BNSMG3N"}
+[2026-04-24 08:30:14 INF] HTTP GET /api/v1/auth/users responded 429 in 0.2460 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3N:0000001B","ConnectionId":"0HNL21BNSMG3N"}
+[2026-04-24 08:30:28 INF] HTTP GET /api/v1/auth/users responded 429 in 0.1922 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3N:0000001C","ConnectionId":"0HNL21BNSMG3N"}
+[2026-04-24 08:30:49 INF] HTTP GET /api/v1/auth/users responded 401 in 0.6262 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3N:0000001D","ConnectionId":"0HNL21BNSMG3N"}
+[2026-04-24 08:30:53 INF] HTTP GET /api/v1/auth/users responded 401 in 0.6508 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3N:0000001E","ConnectionId":"0HNL21BNSMG3N"}
+[2026-04-24 08:30:58 INF] HTTP GET /api/v1/auth/users responded 401 in 0.6261 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3N:0000001F","ConnectionId":"0HNL21BNSMG3N"}
+[2026-04-24 08:31:07 INF] HTTP GET /api/v1/auth/users responded 401 in 0.9257 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3N:00000020","ConnectionId":"0HNL21BNSMG3N"}
+[2026-04-24 08:36:37 INF] HTTP GET /api/v1/auth/users responded 401 in 0.6498 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:00000001","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:36:47 INF] HTTP GET /api/v1/auth/users responded 401 in 0.4791 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:00000002","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:36:58 INF] HTTP GET /api/v1/auth/users responded 401 in 0.5212 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:00000003","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:37:01 INF] HTTP GET /api/v1/auth/users responded 401 in 0.4132 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:00000004","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:37:03 INF] HTTP GET /api/v1/auth/users responded 401 in 0.5911 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:00000005","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:37:05 INF] HTTP GET /api/v1/auth/users responded 429 in 0.1501 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:00000006","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:37:08 INF] HTTP GET /api/v1/auth/users responded 429 in 0.1333 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:00000007","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:37:12 INF] HTTP GET /api/v1/auth/users responded 429 in 0.2356 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:00000008","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:37:15 INF] HTTP GET /api/v1/auth/users responded 429 in 0.1122 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:00000009","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:37:18 INF] HTTP GET /api/v1/auth/users responded 429 in 0.1161 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:0000000A","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:37:21 INF] HTTP GET /api/v1/auth/users responded 429 in 0.1317 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:0000000B","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:37:25 INF] HTTP GET /api/v1/auth/users responded 429 in 0.1957 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:0000000C","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:37:26 INF] HTTP GET /api/v1/auth/users responded 429 in 0.1570 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:0000000D","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:37:31 INF] HTTP GET /api/v1/auth/users responded 429 in 0.1247 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:0000000E","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:37:35 INF] HTTP OPTIONS /api/v1/auth/users responded 204 in 0.6125 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:0000000F","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:37:35 INF] HTTP GET /api/v1/auth/users responded 429 in 0.1970 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:00000010","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:37:37 INF] HTTP GET /api/v1/auth/users responded 401 in 0.4039 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:00000011","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:37:40 INF] HTTP GET /api/v1/auth/users responded 401 in 0.5393 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:00000012","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:37:42 INF] HTTP GET /api/v1/auth/users responded 401 in 0.3942 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:00000013","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:37:45 INF] HTTP GET /api/v1/auth/users responded 401 in 0.9970 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:00000014","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:37:47 INF] HTTP GET /api/v1/auth/users responded 401 in 0.4202 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:00000015","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:38:08 INF] HTTP GET /api/v1/auth/users responded 429 in 0.1850 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:00000016","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:38:17 INF] HTTP GET /api/v1/auth/users responded 429 in 0.1824 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:00000017","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:38:23 INF] HTTP GET /api/v1/auth/users responded 429 in 0.1811 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:00000018","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:38:28 INF] HTTP GET /api/v1/auth/users responded 429 in 0.2023 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:00000019","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:38:29 INF] HTTP GET /api/v1/auth/users responded 429 in 0.1157 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:0000001A","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:38:31 INF] HTTP GET /api/v1/auth/users responded 429 in 0.1632 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:0000001B","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:38:34 INF] HTTP GET /api/v1/auth/users responded 429 in 0.1857 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:0000001C","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:38:39 INF] HTTP GET /api/v1/auth/users responded 401 in 0.7551 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:0000001D","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:38:43 INF] HTTP GET /api/v1/auth/users responded 401 in 1.0159 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:0000001E","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:38:45 INF] HTTP GET /api/v1/auth/users responded 401 in 0.7539 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:0000001F","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:38:48 INF] HTTP GET /api/v1/auth/users responded 401 in 0.8271 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:00000020","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:38:53 INF] HTTP GET /api/v1/auth/users responded 401 in 0.8002 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:00000021","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:38:54 INF] HTTP GET /api/v1/auth/users responded 429 in 0.0808 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:00000022","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:38:57 INF] HTTP GET /api/v1/auth/users responded 429 in 0.1608 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:00000023","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:38:59 INF] HTTP GET /api/v1/auth/users responded 429 in 0.0881 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:00000024","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:39:01 INF] HTTP GET /api/v1/auth/users responded 429 in 0.0789 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:00000025","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:39:06 INF] HTTP GET /api/v1/auth/users responded 429 in 0.0676 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:00000026","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:39:09 INF] HTTP GET /api/v1/auth/users responded 429 in 0.3554 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:00000027","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:39:14 INF] HTTP GET /api/v1/auth/users responded 429 in 0.1272 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3O:00000028","ConnectionId":"0HNL21BNSMG3O"}
+[2026-04-24 08:39:16 INF] HTTP GET /api/v1/auth/users responded 429 in 0.1084 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000001","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:39:24 INF] HTTP GET /api/v1/auth/users responded 429 in 0.0774 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000002","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:39:24 INF] HTTP GET /api/v1/auth/users responded 429 in 0.0668 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000003","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:39:33 INF] HTTP GET /api/v1/auth/users responded 429 in 0.0789 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000004","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:39:41 INF] HTTP GET /api/v1/auth/users responded 401 in 0.5990 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000005","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:39:46 INF] HTTP GET /api/v1/auth/users responded 401 in 0.3430 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000006","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:39:52 INF] HTTP GET /api/v1/auth/users responded 401 in 0.5097 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000007","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:39:58 INF] HTTP GET /api/v1/auth/users responded 401 in 0.3034 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000008","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:40:00 INF] HTTP GET /api/v1/auth/users responded 401 in 0.3745 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000009","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:40:05 INF] HTTP GET /api/v1/auth/users responded 429 in 0.0757 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:0000000A","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:40:09 INF] HTTP GET /api/v1/auth/users responded 429 in 0.1605 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:0000000B","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:40:12 INF] HTTP GET /api/v1/auth/users responded 429 in 0.1052 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:0000000C","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:40:15 INF] HTTP GET /api/v1/auth/users responded 429 in 0.1503 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:0000000D","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:40:20 INF] HTTP GET /api/v1/auth/users responded 429 in 0.0900 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:0000000E","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:40:22 INF] HTTP GET /api/v1/auth/users responded 429 in 0.0779 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:0000000F","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:40:24 INF] HTTP GET /api/v1/auth/users responded 429 in 0.0717 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000010","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:40:25 INF] HTTP GET /api/v1/auth/users responded 429 in 0.0690 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000011","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:40:33 INF] HTTP GET /api/v1/auth/users responded 429 in 0.1492 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000012","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:40:35 INF] HTTP GET /api/v1/auth/users responded 429 in 0.1232 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000013","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:40:40 INF] HTTP GET /api/v1/auth/users responded 401 in 0.8434 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000014","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:40:43 INF] HTTP GET /api/v1/auth/users responded 401 in 0.4161 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000015","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:40:46 INF] HTTP GET /api/v1/auth/users responded 401 in 0.3110 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000016","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:41:17 INF] HTTP GET /api/v1/auth/users responded 401 in 0.8332 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000017","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:41:22 INF] HTTP GET /api/v1/auth/users responded 401 in 0.5110 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000018","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:41:24 INF] HTTP GET /api/v1/auth/users responded 429 in 0.0831 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000019","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:41:26 INF] HTTP GET /api/v1/auth/users responded 429 in 0.0891 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:0000001A","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:41:29 INF] HTTP GET /api/v1/auth/users responded 429 in 0.0818 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:0000001B","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:41:31 INF] HTTP GET /api/v1/auth/users responded 429 in 0.0665 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:0000001C","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:41:42 INF] HTTP GET /api/v1/auth/users responded 401 in 0.2789 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:0000001D","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:41:46 INF] HTTP GET /api/v1/auth/users responded 401 in 0.3584 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:0000001E","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:41:48 INF] HTTP GET /api/v1/auth/users responded 401 in 0.3305 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:0000001F","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:41:51 INF] HTTP GET /api/v1/auth/users responded 401 in 0.8156 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000020","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:41:54 INF] HTTP GET /api/v1/auth/users responded 401 in 0.3483 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000021","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:41:57 INF] HTTP GET /api/v1/auth/users responded 429 in 0.0652 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000022","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:42:01 INF] HTTP GET /api/v1/auth/users responded 429 in 0.0613 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000023","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:42:10 INF] HTTP GET /api/v1/auth/users responded 429 in 0.1834 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000024","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:42:12 INF] HTTP GET /api/v1/auth/users responded 429 in 0.0920 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000025","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:42:14 INF] HTTP GET /api/v1/auth/users responded 429 in 0.1373 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000026","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:42:26 INF] HTTP GET /api/v1/auth/users responded 429 in 0.1024 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000027","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:42:31 INF] HTTP GET /api/v1/auth/users responded 429 in 0.1003 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000028","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:42:33 INF] HTTP GET /api/v1/auth/users responded 429 in 0.0716 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000029","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:42:34 INF] HTTP GET /api/v1/auth/users responded 429 in 0.1373 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:0000002A","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:42:37 INF] HTTP GET /api/v1/auth/users responded 429 in 0.0662 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:0000002B","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:42:40 INF] HTTP GET /api/v1/auth/users responded 401 in 0.4332 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:0000002C","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:42:47 INF] HTTP GET /api/v1/auth/users responded 401 in 0.3228 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:0000002D","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:42:51 INF] HTTP GET /api/v1/auth/users responded 401 in 0.3228 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:0000002E","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:42:55 INF] HTTP GET /api/v1/auth/users responded 401 in 0.2674 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:0000002F","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:42:56 INF] HTTP GET /api/v1/auth/users responded 401 in 0.3378 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000030","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:44:10 INF] HTTP GET /api/v1/auth/users responded 401 in 0.6774 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000031","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:44:13 INF] HTTP GET /api/v1/auth/users responded 401 in 0.3728 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000032","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:44:16 INF] HTTP GET /api/v1/auth/users responded 401 in 0.3814 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000033","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:44:18 INF] HTTP GET /api/v1/auth/users responded 401 in 0.3446 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000034","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:44:19 INF] HTTP GET /api/v1/auth/users responded 401 in 0.3248 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000035","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:44:22 INF] HTTP GET /api/v1/auth/users responded 429 in 0.0780 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3P:00000036","ConnectionId":"0HNL21BNSMG3P"}
+[2026-04-24 08:47:25 INF] HTTP OPTIONS /api/v1/auth/login responded 204 in 0.2217 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3Q:00000001","ConnectionId":"0HNL21BNSMG3Q"}
+[2026-04-24 08:47:25 INF] User login succeeded {"EventId":{"Id":1002,"Name":"LogUserLoggedIn"},"SourceContext":"AuthService.Application.Services.AuthService","ActionId":"5a7c7cb2-70d0-4b49-b62a-9bbab01ae0ae","ActionName":"AuthService.Api.Controllers.AuthController.Login (AuthService.Api)","RequestId":"0HNL21BNSMG3Q:00000002","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNL21BNSMG3Q"}
+[2026-04-24 08:47:25 INF] HTTP POST /api/v1/auth/login responded 200 in 451.9964 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3Q:00000002","ConnectionId":"0HNL21BNSMG3Q"}
+[2026-04-24 09:09:14 INF] HTTP OPTIONS /api/v1/auth/login responded 204 in 0.1241 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3R:00000001","ConnectionId":"0HNL21BNSMG3R"}
+[2026-04-24 09:09:14 WRN] Failed login attempt {"EventId":{"Id":1003,"Name":"LogFailedLoginAttempt"},"SourceContext":"AuthService.Application.Services.AuthService","ActionId":"5a7c7cb2-70d0-4b49-b62a-9bbab01ae0ae","ActionName":"AuthService.Api.Controllers.AuthController.Login (AuthService.Api)","RequestId":"0HNL21BNSMG3R:00000002","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNL21BNSMG3R"}
+[2026-04-24 09:09:14 ERR] An unhandled exception occurred {"SourceContext":"AuthService.Api.Middlewares.GlobalExceptionMiddleware","RequestId":"0HNL21BNSMG3R:00000002","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNL21BNSMG3R"}
+System.UnauthorizedAccessException: Invalid credentials
+   at AuthService.Application.Services.AuthService.LoginAsync(LoginDto loginDto) in C:\KinalSports\authentication-service\auth-service\src\AuthService.Application\Services\AuthService.cs:line 193
+   at AuthService.Api.Controllers.AuthController.Login(LoginDto loginDto) in C:\KinalSports\authentication-service\auth-service\src\AuthService.Api\Controllers\AuthController.cs:line 118
+   at lambda_method23(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at AuthService.Api.Middlewares.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in C:\KinalSports\authentication-service\auth-service\src\AuthService.Api\Middlewares\GlobalExceptionMiddleware.cs:line 18
+[2026-04-24 09:09:14 INF] HTTP POST /api/v1/auth/login responded 401 in 171.3225 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3R:00000002","ConnectionId":"0HNL21BNSMG3R"}
+[2026-04-24 09:09:18 WRN] Failed login attempt {"EventId":{"Id":1003,"Name":"LogFailedLoginAttempt"},"SourceContext":"AuthService.Application.Services.AuthService","ActionId":"5a7c7cb2-70d0-4b49-b62a-9bbab01ae0ae","ActionName":"AuthService.Api.Controllers.AuthController.Login (AuthService.Api)","RequestId":"0HNL21BNSMG3S:00000001","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNL21BNSMG3S"}
+[2026-04-24 09:09:18 ERR] An unhandled exception occurred {"SourceContext":"AuthService.Api.Middlewares.GlobalExceptionMiddleware","RequestId":"0HNL21BNSMG3S:00000001","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNL21BNSMG3S"}
+System.UnauthorizedAccessException: Invalid credentials
+   at AuthService.Application.Services.AuthService.LoginAsync(LoginDto loginDto) in C:\KinalSports\authentication-service\auth-service\src\AuthService.Application\Services\AuthService.cs:line 193
+   at AuthService.Api.Controllers.AuthController.Login(LoginDto loginDto) in C:\KinalSports\authentication-service\auth-service\src\AuthService.Api\Controllers\AuthController.cs:line 118
+   at lambda_method23(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at AuthService.Api.Middlewares.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in C:\KinalSports\authentication-service\auth-service\src\AuthService.Api\Middlewares\GlobalExceptionMiddleware.cs:line 18
+[2026-04-24 09:09:18 INF] HTTP POST /api/v1/auth/login responded 401 in 137.7504 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3S:00000001","ConnectionId":"0HNL21BNSMG3S"}
+[2026-04-24 09:09:23 WRN] Failed login attempt {"EventId":{"Id":1003,"Name":"LogFailedLoginAttempt"},"SourceContext":"AuthService.Application.Services.AuthService","ActionId":"5a7c7cb2-70d0-4b49-b62a-9bbab01ae0ae","ActionName":"AuthService.Api.Controllers.AuthController.Login (AuthService.Api)","RequestId":"0HNL21BNSMG3S:00000002","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNL21BNSMG3S"}
+[2026-04-24 09:09:23 ERR] An unhandled exception occurred {"SourceContext":"AuthService.Api.Middlewares.GlobalExceptionMiddleware","RequestId":"0HNL21BNSMG3S:00000002","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNL21BNSMG3S"}
+System.UnauthorizedAccessException: Invalid credentials
+   at AuthService.Application.Services.AuthService.LoginAsync(LoginDto loginDto) in C:\KinalSports\authentication-service\auth-service\src\AuthService.Application\Services\AuthService.cs:line 193
+   at AuthService.Api.Controllers.AuthController.Login(LoginDto loginDto) in C:\KinalSports\authentication-service\auth-service\src\AuthService.Api\Controllers\AuthController.cs:line 118
+   at lambda_method23(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at AuthService.Api.Middlewares.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in C:\KinalSports\authentication-service\auth-service\src\AuthService.Api\Middlewares\GlobalExceptionMiddleware.cs:line 18
+[2026-04-24 09:09:23 INF] HTTP POST /api/v1/auth/login responded 401 in 123.2576 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3S:00000002","ConnectionId":"0HNL21BNSMG3S"}
+[2026-04-24 09:09:38 WRN] Failed login attempt {"EventId":{"Id":1003,"Name":"LogFailedLoginAttempt"},"SourceContext":"AuthService.Application.Services.AuthService","ActionId":"5a7c7cb2-70d0-4b49-b62a-9bbab01ae0ae","ActionName":"AuthService.Api.Controllers.AuthController.Login (AuthService.Api)","RequestId":"0HNL21BNSMG3S:00000003","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNL21BNSMG3S"}
+[2026-04-24 09:09:38 ERR] An unhandled exception occurred {"SourceContext":"AuthService.Api.Middlewares.GlobalExceptionMiddleware","RequestId":"0HNL21BNSMG3S:00000003","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNL21BNSMG3S"}
+System.UnauthorizedAccessException: Invalid credentials
+   at AuthService.Application.Services.AuthService.LoginAsync(LoginDto loginDto) in C:\KinalSports\authentication-service\auth-service\src\AuthService.Application\Services\AuthService.cs:line 193
+   at AuthService.Api.Controllers.AuthController.Login(LoginDto loginDto) in C:\KinalSports\authentication-service\auth-service\src\AuthService.Api\Controllers\AuthController.cs:line 118
+   at lambda_method23(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at AuthService.Api.Middlewares.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in C:\KinalSports\authentication-service\auth-service\src\AuthService.Api\Middlewares\GlobalExceptionMiddleware.cs:line 18
+[2026-04-24 09:09:38 INF] HTTP POST /api/v1/auth/login responded 401 in 131.0498 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3S:00000003","ConnectionId":"0HNL21BNSMG3S"}
+[2026-04-24 09:09:40 WRN] Failed login attempt {"EventId":{"Id":1003,"Name":"LogFailedLoginAttempt"},"SourceContext":"AuthService.Application.Services.AuthService","ActionId":"5a7c7cb2-70d0-4b49-b62a-9bbab01ae0ae","ActionName":"AuthService.Api.Controllers.AuthController.Login (AuthService.Api)","RequestId":"0HNL21BNSMG3S:00000004","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNL21BNSMG3S"}
+[2026-04-24 09:09:40 ERR] An unhandled exception occurred {"SourceContext":"AuthService.Api.Middlewares.GlobalExceptionMiddleware","RequestId":"0HNL21BNSMG3S:00000004","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNL21BNSMG3S"}
+System.UnauthorizedAccessException: Invalid credentials
+   at AuthService.Application.Services.AuthService.LoginAsync(LoginDto loginDto) in C:\KinalSports\authentication-service\auth-service\src\AuthService.Application\Services\AuthService.cs:line 193
+   at AuthService.Api.Controllers.AuthController.Login(LoginDto loginDto) in C:\KinalSports\authentication-service\auth-service\src\AuthService.Api\Controllers\AuthController.cs:line 118
+   at lambda_method23(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at AuthService.Api.Middlewares.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in C:\KinalSports\authentication-service\auth-service\src\AuthService.Api\Middlewares\GlobalExceptionMiddleware.cs:line 18
+[2026-04-24 09:09:40 INF] HTTP POST /api/v1/auth/login responded 401 in 109.6933 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3S:00000004","ConnectionId":"0HNL21BNSMG3S"}
+[2026-04-24 09:09:45 INF] HTTP POST /api/v1/auth/login responded 429 in 0.1039 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3S:00000005","ConnectionId":"0HNL21BNSMG3S"}
+[2026-04-24 09:09:46 INF] HTTP POST /api/v1/auth/login responded 429 in 0.0704 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3S:00000006","ConnectionId":"0HNL21BNSMG3S"}
+[2026-04-24 09:09:46 INF] HTTP POST /api/v1/auth/login responded 429 in 0.0519 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3S:00000007","ConnectionId":"0HNL21BNSMG3S"}
+[2026-04-24 09:09:47 INF] HTTP POST /api/v1/auth/login responded 429 in 0.1020 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3S:00000008","ConnectionId":"0HNL21BNSMG3S"}
+[2026-04-24 09:09:47 INF] HTTP POST /api/v1/auth/login responded 429 in 0.0890 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3S:00000009","ConnectionId":"0HNL21BNSMG3S"}
+[2026-04-24 09:09:47 INF] HTTP POST /api/v1/auth/login responded 429 in 0.1112 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3S:0000000A","ConnectionId":"0HNL21BNSMG3S"}
+[2026-04-24 09:09:47 INF] HTTP POST /api/v1/auth/login responded 429 in 0.1141 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3S:0000000B","ConnectionId":"0HNL21BNSMG3S"}
+[2026-04-24 09:09:47 INF] HTTP POST /api/v1/auth/login responded 429 in 0.0786 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3S:0000000C","ConnectionId":"0HNL21BNSMG3S"}
+[2026-04-24 09:09:47 INF] HTTP POST /api/v1/auth/login responded 429 in 0.0784 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3S:0000000D","ConnectionId":"0HNL21BNSMG3S"}
+[2026-04-24 09:09:47 INF] HTTP POST /api/v1/auth/login responded 429 in 0.0873 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3S:0000000E","ConnectionId":"0HNL21BNSMG3S"}
+[2026-04-24 09:09:47 INF] HTTP POST /api/v1/auth/login responded 429 in 0.0657 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3S:0000000F","ConnectionId":"0HNL21BNSMG3S"}
+[2026-04-24 09:09:48 INF] HTTP POST /api/v1/auth/login responded 429 in 0.0819 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3S:00000010","ConnectionId":"0HNL21BNSMG3S"}
+[2026-04-24 09:09:53 INF] HTTP POST /api/v1/auth/login responded 429 in 0.0916 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL21BNSMG3S:00000011","ConnectionId":"0HNL21BNSMG3S"}
+[2026-04-24 09:10:17 INF] Checking database connection... {"SourceContext":"Program"}
+[2026-04-24 09:10:18 INF] Database ready. Running seed data... {"SourceContext":"Program"}
+[2026-04-24 09:10:18 INF] Database initialization completed successfully {"SourceContext":"Program"}
+[2026-04-24 09:10:18 INF] AuthService API is running at http://localhost:5156. Health endpoint: http://localhost:5156/health {"SourceContext":"Program"}
+[2026-04-24 09:10:31 WRN] Failed login attempt {"EventId":{"Id":1003,"Name":"LogFailedLoginAttempt"},"SourceContext":"AuthService.Application.Services.AuthService","ActionId":"0fc5034f-6329-4d13-b7a7-b0d13eb8d778","ActionName":"AuthService.Api.Controllers.AuthController.Login (AuthService.Api)","RequestId":"0HNL22EG1JBKL:00000001","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNL22EG1JBKL"}
+[2026-04-24 09:10:31 ERR] An unhandled exception occurred {"SourceContext":"AuthService.Api.Middlewares.GlobalExceptionMiddleware","RequestId":"0HNL22EG1JBKL:00000001","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNL22EG1JBKL"}
+System.UnauthorizedAccessException: Invalid credentials
+   at AuthService.Application.Services.AuthService.LoginAsync(LoginDto loginDto) in C:\KinalSports\authentication-service\auth-service\src\AuthService.Application\Services\AuthService.cs:line 193
+   at AuthService.Api.Controllers.AuthController.Login(LoginDto loginDto) in C:\KinalSports\authentication-service\auth-service\src\AuthService.Api\Controllers\AuthController.cs:line 118
+   at lambda_method23(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at AuthService.Api.Middlewares.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in C:\KinalSports\authentication-service\auth-service\src\AuthService.Api\Middlewares\GlobalExceptionMiddleware.cs:line 18
+[2026-04-24 09:10:31 INF] HTTP POST /api/v1/auth/login responded 401 in 1069.9458 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL22EG1JBKL:00000001","ConnectionId":"0HNL22EG1JBKL"}
+[2026-04-24 09:10:36 WRN] Failed login attempt {"EventId":{"Id":1003,"Name":"LogFailedLoginAttempt"},"SourceContext":"AuthService.Application.Services.AuthService","ActionId":"0fc5034f-6329-4d13-b7a7-b0d13eb8d778","ActionName":"AuthService.Api.Controllers.AuthController.Login (AuthService.Api)","RequestId":"0HNL22EG1JBKL:00000002","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNL22EG1JBKL"}
+[2026-04-24 09:10:36 ERR] An unhandled exception occurred {"SourceContext":"AuthService.Api.Middlewares.GlobalExceptionMiddleware","RequestId":"0HNL22EG1JBKL:00000002","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNL22EG1JBKL"}
+System.UnauthorizedAccessException: Invalid credentials
+   at AuthService.Application.Services.AuthService.LoginAsync(LoginDto loginDto) in C:\KinalSports\authentication-service\auth-service\src\AuthService.Application\Services\AuthService.cs:line 193
+   at AuthService.Api.Controllers.AuthController.Login(LoginDto loginDto) in C:\KinalSports\authentication-service\auth-service\src\AuthService.Api\Controllers\AuthController.cs:line 118
+   at lambda_method23(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at AuthService.Api.Middlewares.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in C:\KinalSports\authentication-service\auth-service\src\AuthService.Api\Middlewares\GlobalExceptionMiddleware.cs:line 18
+[2026-04-24 09:10:36 INF] HTTP POST /api/v1/auth/login responded 401 in 469.6040 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL22EG1JBKL:00000002","ConnectionId":"0HNL22EG1JBKL"}
+[2026-04-24 09:10:41 WRN] Failed login attempt {"EventId":{"Id":1003,"Name":"LogFailedLoginAttempt"},"SourceContext":"AuthService.Application.Services.AuthService","ActionId":"0fc5034f-6329-4d13-b7a7-b0d13eb8d778","ActionName":"AuthService.Api.Controllers.AuthController.Login (AuthService.Api)","RequestId":"0HNL22EG1JBKL:00000003","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNL22EG1JBKL"}
+[2026-04-24 09:10:41 ERR] An unhandled exception occurred {"SourceContext":"AuthService.Api.Middlewares.GlobalExceptionMiddleware","RequestId":"0HNL22EG1JBKL:00000003","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNL22EG1JBKL"}
+System.UnauthorizedAccessException: Invalid credentials
+   at AuthService.Application.Services.AuthService.LoginAsync(LoginDto loginDto) in C:\KinalSports\authentication-service\auth-service\src\AuthService.Application\Services\AuthService.cs:line 193
+   at AuthService.Api.Controllers.AuthController.Login(LoginDto loginDto) in C:\KinalSports\authentication-service\auth-service\src\AuthService.Api\Controllers\AuthController.cs:line 118
+   at lambda_method23(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at AuthService.Api.Middlewares.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in C:\KinalSports\authentication-service\auth-service\src\AuthService.Api\Middlewares\GlobalExceptionMiddleware.cs:line 18
+[2026-04-24 09:10:41 INF] HTTP POST /api/v1/auth/login responded 401 in 168.0717 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL22EG1JBKL:00000003","ConnectionId":"0HNL22EG1JBKL"}
+[2026-04-24 09:10:52 INF] User login succeeded {"EventId":{"Id":1002,"Name":"LogUserLoggedIn"},"SourceContext":"AuthService.Application.Services.AuthService","ActionId":"0fc5034f-6329-4d13-b7a7-b0d13eb8d778","ActionName":"AuthService.Api.Controllers.AuthController.Login (AuthService.Api)","RequestId":"0HNL22EG1JBKL:00000004","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNL22EG1JBKL"}
+[2026-04-24 09:10:52 INF] HTTP POST /api/v1/auth/login responded 200 in 321.5967 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL22EG1JBKL:00000004","ConnectionId":"0HNL22EG1JBKL"}
+[2026-04-24 10:08:04 INF] HTTP OPTIONS /api/v1/auth/users responded 204 in 1.8364 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL22EG1JBKM:00000001","ConnectionId":"0HNL22EG1JBKM"}
+[2026-04-24 10:08:04 INF] HTTP GET /api/v1/auth/users responded 401 in 8.2673 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL22EG1JBKM:00000002","ConnectionId":"0HNL22EG1JBKM"}
+[2026-04-24 10:08:07 INF] HTTP GET /api/v1/auth/users responded 401 in 2.6879 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL22EG1JBKM:00000003","ConnectionId":"0HNL22EG1JBKM"}
+[2026-04-24 10:08:35 INF] HTTP OPTIONS /api/v1/auth/login responded 204 in 0.8713 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL22EG1JBKM:00000004","ConnectionId":"0HNL22EG1JBKM"}
+[2026-04-24 10:08:35 INF] User login succeeded {"EventId":{"Id":1002,"Name":"LogUserLoggedIn"},"SourceContext":"AuthService.Application.Services.AuthService","ActionId":"0fc5034f-6329-4d13-b7a7-b0d13eb8d778","ActionName":"AuthService.Api.Controllers.AuthController.Login (AuthService.Api)","RequestId":"0HNL22EG1JBKM:00000005","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNL22EG1JBKM"}
+[2026-04-24 10:08:35 INF] HTTP POST /api/v1/auth/login responded 200 in 140.8931 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL22EG1JBKM:00000005","ConnectionId":"0HNL22EG1JBKM"}
+[2026-04-24 10:08:38 INF] HTTP GET /api/v1/auth/users responded 200 in 75.3233 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL22EG1JBKM:00000006","ConnectionId":"0HNL22EG1JBKM"}
+[2026-04-24 10:17:43 INF] HTTP GET /api/v1/auth/users responded 200 in 30.1635 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL22EG1JBKN:00000001","ConnectionId":"0HNL22EG1JBKN"}
+[2026-04-24 10:20:33 INF] HTTP OPTIONS /api/v1/auth/login responded 204 in 0.0715 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL22EG1JBKO:00000001","ConnectionId":"0HNL22EG1JBKO"}
+[2026-04-24 10:20:33 INF] User login succeeded {"EventId":{"Id":1002,"Name":"LogUserLoggedIn"},"SourceContext":"AuthService.Application.Services.AuthService","ActionId":"0fc5034f-6329-4d13-b7a7-b0d13eb8d778","ActionName":"AuthService.Api.Controllers.AuthController.Login (AuthService.Api)","RequestId":"0HNL22EG1JBKO:00000002","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNL22EG1JBKO"}
+[2026-04-24 10:20:33 INF] HTTP POST /api/v1/auth/login responded 200 in 104.7773 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL22EG1JBKO:00000002","ConnectionId":"0HNL22EG1JBKO"}
+[2026-04-24 10:20:44 INF] HTTP OPTIONS /api/v1/auth/users responded 204 in 0.1025 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL22EG1JBKO:00000003","ConnectionId":"0HNL22EG1JBKO"}
+[2026-04-24 10:20:44 INF] HTTP GET /api/v1/auth/users responded 200 in 9.2660 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL22EG1JBKO:00000004","ConnectionId":"0HNL22EG1JBKO"}
+[2026-04-24 10:39:43 INF] HTTP OPTIONS /api/v1/auth/users responded 204 in 0.3086 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL22EG1JBKP:00000001","ConnectionId":"0HNL22EG1JBKP"}
+[2026-04-24 10:39:43 INF] HTTP GET /api/v1/auth/users responded 401 in 0.5106 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL22EG1JBKP:00000002","ConnectionId":"0HNL22EG1JBKP"}
+[2026-04-24 10:39:49 INF] HTTP GET /api/v1/auth/users responded 401 in 0.5172 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL22EG1JBKP:00000003","ConnectionId":"0HNL22EG1JBKP"}
+[2026-04-24 10:40:17 INF] HTTP OPTIONS /api/v1/auth/login responded 204 in 0.1511 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL22EG1JBKP:00000004","ConnectionId":"0HNL22EG1JBKP"}
+[2026-04-24 10:40:17 WRN] Failed login attempt {"EventId":{"Id":1003,"Name":"LogFailedLoginAttempt"},"SourceContext":"AuthService.Application.Services.AuthService","ActionId":"0fc5034f-6329-4d13-b7a7-b0d13eb8d778","ActionName":"AuthService.Api.Controllers.AuthController.Login (AuthService.Api)","RequestId":"0HNL22EG1JBKP:00000005","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNL22EG1JBKP"}
+[2026-04-24 10:40:17 ERR] An unhandled exception occurred {"SourceContext":"AuthService.Api.Middlewares.GlobalExceptionMiddleware","RequestId":"0HNL22EG1JBKP:00000005","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNL22EG1JBKP"}
+System.UnauthorizedAccessException: Invalid credentials
+   at AuthService.Application.Services.AuthService.LoginAsync(LoginDto loginDto) in C:\KinalSports\authentication-service\auth-service\src\AuthService.Application\Services\AuthService.cs:line 193
+   at AuthService.Api.Controllers.AuthController.Login(LoginDto loginDto) in C:\KinalSports\authentication-service\auth-service\src\AuthService.Api\Controllers\AuthController.cs:line 118
+   at lambda_method23(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at AuthService.Api.Middlewares.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in C:\KinalSports\authentication-service\auth-service\src\AuthService.Api\Middlewares\GlobalExceptionMiddleware.cs:line 18
+[2026-04-24 10:40:17 INF] HTTP POST /api/v1/auth/login responded 401 in 171.1722 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL22EG1JBKP:00000005","ConnectionId":"0HNL22EG1JBKP"}
+[2026-04-24 10:40:23 INF] User login succeeded {"EventId":{"Id":1002,"Name":"LogUserLoggedIn"},"SourceContext":"AuthService.Application.Services.AuthService","ActionId":"0fc5034f-6329-4d13-b7a7-b0d13eb8d778","ActionName":"AuthService.Api.Controllers.AuthController.Login (AuthService.Api)","RequestId":"0HNL22EG1JBKP:00000006","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNL22EG1JBKP"}
+[2026-04-24 10:40:23 INF] HTTP POST /api/v1/auth/login responded 200 in 115.4311 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL22EG1JBKP:00000006","ConnectionId":"0HNL22EG1JBKP"}
+[2026-04-24 10:40:26 INF] HTTP GET /api/v1/auth/users responded 200 in 7.4051 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL22EG1JBKP:00000007","ConnectionId":"0HNL22EG1JBKP"}
+[2026-04-24 10:43:03 INF] HTTP GET /api/v1/auth/users responded 200 in 9.4785 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL22EG1JBKQ:00000001","ConnectionId":"0HNL22EG1JBKQ"}
+[2026-04-24 11:22:12 INF] HTTP OPTIONS /api/v1/auth/login responded 204 in 0.4611 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL22EG1JBKR:00000001","ConnectionId":"0HNL22EG1JBKR"}
+[2026-04-24 11:22:13 INF] User login succeeded {"EventId":{"Id":1002,"Name":"LogUserLoggedIn"},"SourceContext":"AuthService.Application.Services.AuthService","ActionId":"0fc5034f-6329-4d13-b7a7-b0d13eb8d778","ActionName":"AuthService.Api.Controllers.AuthController.Login (AuthService.Api)","RequestId":"0HNL22EG1JBKR:00000002","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNL22EG1JBKR"}
+[2026-04-24 11:22:13 INF] HTTP POST /api/v1/auth/login responded 200 in 385.8989 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL22EG1JBKR:00000002","ConnectionId":"0HNL22EG1JBKR"}
