@@ -30,12 +30,20 @@ export const UserDetailModal = ({
 
     const isCurrentUser = currentUserId === user.id;
     const hasChanges = role !== user.role;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 22921805f7e520ce4e8a80d843d8455deee5540f
     const handleSave = async () => {
         if (!hasChanges || isCurrentUser) {
             onClose();
             return;
         }
+<<<<<<< HEAD
         await onSaveRole(user, role);
+=======
+        await onSaveRole(user, role)
+>>>>>>> 22921805f7e520ce4e8a80d843d8455deee5540f
     }
 
     return (

@@ -31,6 +31,7 @@ export const Users = () => {
         }
     }, [error])
 
+<<<<<<< HEAD
     const filteredUsers = useMemo(() =>{
         const normalizedSearch = search.trim().toLowerCase();
 
@@ -62,6 +63,8 @@ export const Users = () => {
         return filteredUsers.slice(start, start + PAGE_SIZE);
     })
 
+=======
+>>>>>>> 22921805f7e520ce4e8a80d843d8455deee5540f
     const handleSaveRole = async (user, newRole) => {
         const res = await updateUserRole(user.id, newRole);
         if(res.success) {
