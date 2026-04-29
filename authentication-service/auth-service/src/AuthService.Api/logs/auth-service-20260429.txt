@@ -40,3 +40,12 @@ System.Security.Cryptography.CryptographicException: Error occurred during a cry
    at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyBase.CreateEncryptor()
    at Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver.CanCreateAuthenticatedEncryptor(IKey key)
 [2026-04-29 16:39:28 INF] AuthService API is running at http://localhost:5156. Health endpoint: http://localhost:5156/health {"SourceContext":"Program"}
+[2026-04-29 16:40:24 INF] Checking database connection... {"SourceContext":"Program"}
+[2026-04-29 16:40:24 INF] Database ready. Running seed data... {"SourceContext":"Program"}
+[2026-04-29 16:40:24 INF] Database initialization completed successfully {"SourceContext":"Program"}
+[2026-04-29 16:40:25 INF] AuthService API is running at http://localhost:5156. Health endpoint: http://localhost:5156/health {"SourceContext":"Program"}
+[2026-04-29 16:56:11 INF] HTTP OPTIONS /api/v1/auth/login responded 204 in 4.1289 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL68A11ILPM:00000001","ConnectionId":"0HNL68A11ILPM"}
+[2026-04-29 16:56:12 INF] User login succeeded {"EventId":{"Id":1002,"Name":"LogUserLoggedIn"},"SourceContext":"AuthService.Application.Services.AuthService","ActionId":"2ca1bbb4-6113-417c-b50b-9bcd3d52143a","ActionName":"AuthService.Api.Controllers.AuthController.Login (AuthService.Api)","RequestId":"0HNL68A11ILPM:00000002","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNL68A11ILPM"}
+[2026-04-29 16:56:12 INF] HTTP POST /api/v1/auth/login responded 200 in 985.6848 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL68A11ILPM:00000002","ConnectionId":"0HNL68A11ILPM"}
+[2026-04-29 17:12:47 INF] HTTP OPTIONS /api/v1/auth/refresh responded 204 in 1.6378 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL68A11ILPN:00000001","ConnectionId":"0HNL68A11ILPN"}
+[2026-04-29 17:12:47 INF] HTTP POST /api/v1/auth/refresh responded 200 in 242.7450 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNL68A11ILPN:00000002","ConnectionId":"0HNL68A11ILPN"}
